@@ -3,7 +3,11 @@ import Fruits from './components/Fruits';
 import FruitsCounter from './components/FruitsCounter';
 import './App.css';
 
-function App() {
+/**
+ * The main App component.
+ * @returns {JSX.Element} A JSX element.
+ */
+function App(): JSX.Element {
     // Create an array of fruits
     const [fruits] = React.useState([
         { id: 1, fruitName: 'Apple' },
